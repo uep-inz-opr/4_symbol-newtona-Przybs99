@@ -2,9 +2,9 @@ import math
 
 liczby = input()
 
-liczba_1 = int(liczby[0])
+liczba_1 = int(liczby.split(' ')[0])
 
-liczba_2 = int(liczby[2])
+liczba_2 = int(liczby.split(' ')[1])
 
 wynik = math.comb(liczba_1,liczba_2)
 
